@@ -9,8 +9,8 @@ public class StudentClass {
     private String classLetter;
     private String classCurator;
 
-    private List<Student> listStudents = new ArrayList<Student>();
-    private List<Student> spareListStudents = new ArrayList<Student>(listStudents);
+    private List<Student> listStudents = new ArrayList<>();
+    private List<Student> spareListStudents = new ArrayList<>(listStudents);
 
     public StudentClass(String classNumber, String classLetter, String classCurator) {
         this.classNumber = classNumber;

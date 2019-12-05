@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ProjectMenu {
-    private List<School> listObjectsSchool = new ArrayList<School>();
+    private List<School> listObjectsSchool = new ArrayList<>();
 
     private Scanner in;
     private int numberCheckSchool, numberCheckClass;
